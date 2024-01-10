@@ -1,0 +1,1119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Travel & Trunk</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="World tour" name="keywords">
+    <meta content="World tour" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div ng-app="">
+        <!-- For Ajax -->
+        <script>function loadDoc() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("demo").innerHTML =
+                            this.responseText;
+                    }
+                };
+                xhttp.open("GET", "ajax.txt", true);
+                xhttp.send();
+            }</script>
+
+        <!-- For Angular js -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+            <div class="container">
+                <div id="demo" class="row" onclick="loadDoc()">
+                    <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                        <div class="d-inline-flex align-items-center">
+                            <p><i class="fa fa-envelope mr-2"></i>24864@students.riphah.edu.pk</p>
+                            <p class="text-body px-3">|</p>
+                            <p><i class="fa fa-phone-alt mr-2"></i>+923408167298</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-right">
+                        <div class="d-inline-flex align-items-center">
+                            <a class="text-primary px-3" href="https://www.facebook.com/profile.php?id=100013450172275">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="text-primary px-3" href="https://twitter.com/hirashahzad565">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="text-primary px-3" href="https://www.linkedin.com/in/hira-shahzad-ab6a72235/">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="text-primary px-3" href="https://www.instagram.com/hs_art_565/">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="text-primary pl-3" href="https://www.youtube.com/channel/UCXIJHjXvVrBgtIdTU89Zmeg">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar Start -->
+        <div class="container-fluid position-relative nav-bar p-0">
+            <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+                <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+                    <a href="" class="navbar-brand">
+                        <h1 class="m-0 text-primary"><span class="text-dark">TRAVEL & </span>TRUNK</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                        <div class="navbar-nav ml-auto py-0">
+                            <a href="index.html#index" class="nav-item nav-link active">Home</a>
+                            <a href="index.html#about" class="nav-item nav-link">About</a>
+                            <a href="index.html#services" class="nav-item nav-link">Services</a>
+                            <a href="index.html#contact" class="nav-item nav-link">Contact</a>
+                            <a href="index.html#login" class="nav-item nav-link">Log In</a>
+                            <a href="index.html#signup" class="nav-item nav-link">Sign up</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0">
+            <div id="header-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase mb-md-3">Travel & Trunk</h4>
+                                <h1 class="display-3 text-white mb-md-4">Exploring The World</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase mb-md-3">Travel & Trunk</h4>
+                                <h1 class="display-3 text-white mb-md-4">Enjoy Your Dream vacation</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                    <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                        <span class="carousel-control-prev-icon mb-n2"></span>
+                    </div>
+                </a>
+                <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                    <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                        <span class="carousel-control-next-icon mb-n2"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Carousel End -->
+        <!-- Booking Start -->
+        <form action="insert.php" method="post">
+            <div class="container-fluid booking mt-5 pb-5">
+                <div class="container pb-5">
+                    <div class="bg-light shadow" style="padding: 30px;">
+                        <div class="row align-items-center" style="min-height: 60px;">
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="mb-3 mb-md-0">
+                                            <select class="custom-select px-4" name="destination" style="height: 47px;">
+                                                <option selected hidden value="">Destination</option>
+                                                <option value="AF">Afghanistan</option>
+                                                <option value="AX">Aland Islands</option>
+                                                <option value="AL">Albania</option>
+                                                <option value="DZ">Algeria</option>
+                                                <option value="AS">American Samoa</option>
+                                                <option value="AD">Andorra</option>
+                                                <option value="AO">Angola</option>
+                                                <option value="AI">Anguilla</option>
+                                                <option value="AQ">Antarctica</option>
+                                                <option value="AG">Antigua and Barbuda</option>
+                                                <option value="AR">Argentina</option>
+                                                <option value="AM">Armenia</option>
+                                                <option value="AW">Aruba</option>
+                                                <option value="AU">Australia</option>
+                                                <option value="AT">Austria</option>
+                                                <option value="AZ">Azerbaijan</option>
+                                                <option value="BS">Bahamas</option>
+                                                <option value="BH">Bahrain</option>
+                                                <option value="BD">Bangladesh</option>
+                                                <option value="BB">Barbados</option>
+                                                <option value="BY">Belarus</option>
+                                                <option value="BE">Belgium</option>
+                                                <option value="BZ">Belize</option>
+                                                <option value="BJ">Benin</option>
+                                                <option value="BM">Bermuda</option>
+                                                <option value="BT">Bhutan</option>
+                                                <option value="BO">Bolivia</option>
+                                                <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                                <option value="BA">Bosnia and Herzegovina</option>
+                                                <option value="BW">Botswana</option>
+                                                <option value="BV">Bouvet Island</option>
+                                                <option value="BR">Brazil</option>
+                                                <option value="IO">British Indian Ocean Territory</option>
+                                                <option value="BN">Brunei Darussalam</option>
+                                                <option value="BG">Bulgaria</option>
+                                                <option value="BF">Burkina Faso</option>
+                                                <option value="BI">Burundi</option>
+                                                <option value="KH">Cambodia</option>
+                                                <option value="CM">Cameroon</option>
+                                                <option value="CA">Canada</option>
+                                                <option value="CV">Cape Verde</option>
+                                                <option value="KY">Cayman Islands</option>
+                                                <option value="CF">Central African Republic</option>
+                                                <option value="TD">Chad</option>
+                                                <option value="CL">Chile</option>
+                                                <option value="CN">China</option>
+                                                <option value="CX">Christmas Island</option>
+                                                <option value="CC">Cocos (Keeling) Islands</option>
+                                                <option value="CO">Colombia</option>
+                                                <option value="KM">Comoros</option>
+                                                <option value="CG">Congo</option>
+                                                <option value="CD">Congo, Democratic Republic of the Congo</option>
+                                                <option value="CK">Cook Islands</option>
+                                                <option value="CR">Costa Rica</option>
+                                                <option value="CI">Cote D'Ivoire</option>
+                                                <option value="HR">Croatia</option>
+                                                <option value="CU">Cuba</option>
+                                                <option value="CW">Curacao</option>
+                                                <option value="CY">Cyprus</option>
+                                                <option value="CZ">Czech Republic</option>
+                                                <option value="DK">Denmark</option>
+                                                <option value="DJ">Djibouti</option>
+                                                <option value="DM">Dominica</option>
+                                                <option value="DO">Dominican Republic</option>
+                                                <option value="EC">Ecuador</option>
+                                                <option value="EG">Egypt</option>
+                                                <option value="SV">El Salvador</option>
+                                                <option value="GQ">Equatorial Guinea</option>
+                                                <option value="ER">Eritrea</option>
+                                                <option value="EE">Estonia</option>
+                                                <option value="ET">Ethiopia</option>
+                                                <option value="FK">Falkland Islands (Malvinas)</option>
+                                                <option value="FO">Faroe Islands</option>
+                                                <option value="FJ">Fiji</option>
+                                                <option value="FI">Finland</option>
+                                                <option value="FR">France</option>
+                                                <option value="GF">French Guiana</option>
+                                                <option value="PF">French Polynesia</option>
+                                                <option value="TF">French Southern Territories</option>
+                                                <option value="GA">Gabon</option>
+                                                <option value="GM">Gambia</option>
+                                                <option value="GE">Georgia</option>
+                                                <option value="DE">Germany</option>
+                                                <option value="GH">Ghana</option>
+                                                <option value="GI">Gibraltar</option>
+                                                <option value="GR">Greece</option>
+                                                <option value="GL">Greenland</option>
+                                                <option value="GD">Grenada</option>
+                                                <option value="GP">Guadeloupe</option>
+                                                <option value="GU">Guam</option>
+                                                <option value="GT">Guatemala</option>
+                                                <option value="GG">Guernsey</option>
+                                                <option value="GN">Guinea</option>
+                                                <option value="GW">Guinea-Bissau</option>
+                                                <option value="GY">Guyana</option>
+                                                <option value="HT">Haiti</option>
+                                                <option value="HM">Heard Island and Mcdonald Islands</option>
+                                                <option value="VA">Holy See (Vatican City State)</option>
+                                                <option value="HN">Honduras</option>
+                                                <option value="HK">Hong Kong</option>
+                                                <option value="HU">Hungary</option>
+                                                <option value="IS">Iceland</option>
+                                                <option value="IN">India</option>
+                                                <option value="ID">Indonesia</option>
+                                                <option value="IR">Iran, Islamic Republic of</option>
+                                                <option value="IQ">Iraq</option>
+                                                <option value="IE">Ireland</option>
+                                                <option value="IM">Isle of Man</option>
+                                                <option value="IL">Israel</option>
+                                                <option value="IT">Italy</option>
+                                                <option value="JM">Jamaica</option>
+                                                <option value="JP">Japan</option>
+                                                <option value="JE">Jersey</option>
+                                                <option value="JO">Jordan</option>
+                                                <option value="KZ">Kazakhstan</option>
+                                                <option value="KE">Kenya</option>
+                                                <option value="KI">Kiribati</option>
+                                                <option value="KP">Korea, Democratic People's Republic of</option>
+                                                <option value="KR">Korea, Republic of</option>
+                                                <option value="XK">Kosovo</option>
+                                                <option value="KW">Kuwait</option>
+                                                <option value="KG">Kyrgyzstan</option>
+                                                <option value="LA">Lao People's Democratic Republic</option>
+                                                <option value="LV">Latvia</option>
+                                                <option value="LB">Lebanon</option>
+                                                <option value="LS">Lesotho</option>
+                                                <option value="LR">Liberia</option>
+                                                <option value="LY">Libyan Arab Jamahiriya</option>
+                                                <option value="LI">Liechtenstein</option>
+                                                <option value="LT">Lithuania</option>
+                                                <option value="LU">Luxembourg</option>
+                                                <option value="MO">Macao</option>
+                                                <option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+                                                <option value="MG">Madagascar</option>
+                                                <option value="MW">Malawi</option>
+                                                <option value="MY">Malaysia</option>
+                                                <option value="MV">Maldives</option>
+                                                <option value="ML">Mali</option>
+                                                <option value="MT">Malta</option>
+                                                <option value="MH">Marshall Islands</option>
+                                                <option value="MQ">Martinique</option>
+                                                <option value="MR">Mauritania</option>
+                                                <option value="MU">Mauritius</option>
+                                                <option value="YT">Mayotte</option>
+                                                <option value="MX">Mexico</option>
+                                                <option value="FM">Micronesia, Federated States of</option>
+                                                <option value="MD">Moldova, Republic of</option>
+                                                <option value="MC">Monaco</option>
+                                                <option value="MN">Mongolia</option>
+                                                <option value="ME">Montenegro</option>
+                                                <option value="MS">Montserrat</option>
+                                                <option value="MA">Morocco</option>
+                                                <option value="MZ">Mozambique</option>
+                                                <option value="MM">Myanmar</option>
+                                                <option value="NA">Namibia</option>
+                                                <option value="NR">Nauru</option>
+                                                <option value="NP">Nepal</option>
+                                                <option value="NL">Netherlands</option>
+                                                <option value="AN">Netherlands Antilles</option>
+                                                <option value="NC">New Caledonia</option>
+                                                <option value="NZ">New Zealand</option>
+                                                <option value="NI">Nicaragua</option>
+                                                <option value="NE">Niger</option>
+                                                <option value="NG">Nigeria</option>
+                                                <option value="NU">Niue</option>
+                                                <option value="NF">Norfolk Island</option>
+                                                <option value="MP">Northern Mariana Islands</option>
+                                                <option value="NO">Norway</option>
+                                                <option value="OM">Oman</option>
+                                                <option value="PK">Pakistan</option>
+                                                <option value="PW">Palau</option>
+                                                <option value="PS">Palestinian Territory, Occupied</option>
+                                                <option value="PA">Panama</option>
+                                                <option value="PG">Papua New Guinea</option>
+                                                <option value="PY">Paraguay</option>
+                                                <option value="PE">Peru</option>
+                                                <option value="PH">Philippines</option>
+                                                <option value="PN">Pitcairn</option>
+                                                <option value="PL">Poland</option>
+                                                <option value="PT">Portugal</option>
+                                                <option value="PR">Puerto Rico</option>
+                                                <option value="QA">Qatar</option>
+                                                <option value="RE">Reunion</option>
+                                                <option value="RO">Romania</option>
+                                                <option value="RU">Russian Federation</option>
+                                                <option value="RW">Rwanda</option>
+                                                <option value="BL">Saint Barthelemy</option>
+                                                <option value="SH">Saint Helena</option>
+                                                <option value="KN">Saint Kitts and Nevis</option>
+                                                <option value="LC">Saint Lucia</option>
+                                                <option value="MF">Saint Martin</option>
+                                                <option value="PM">Saint Pierre and Miquelon</option>
+                                                <option value="VC">Saint Vincent and the Grenadines</option>
+                                                <option value="WS">Samoa</option>
+                                                <option value="SM">San Marino</option>
+                                                <option value="ST">Sao Tome and Principe</option>
+                                                <option value="SA">Saudi Arabia</option>
+                                                <option value="SN">Senegal</option>
+                                                <option value="RS">Serbia</option>
+                                                <option value="CS">Serbia and Montenegro</option>
+                                                <option value="SC">Seychelles</option>
+                                                <option value="SL">Sierra Leone</option>
+                                                <option value="SG">Singapore</option>
+                                                <option value="SX">Sint Maarten</option>
+                                                <option value="SK">Slovakia</option>
+                                                <option value="SI">Slovenia</option>
+                                                <option value="SB">Solomon Islands</option>
+                                                <option value="SO">Somalia</option>
+                                                <option value="ZA">South Africa</option>
+                                                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                                <option value="SS">South Sudan</option>
+                                                <option value="ES">Spain</option>
+                                                <option value="LK">Sri Lanka</option>
+                                                <option value="SD">Sudan</option>
+                                                <option value="SR">Suriname</option>
+                                                <option value="SJ">Svalbard and Jan Mayen</option>
+                                                <option value="SZ">Swaziland</option>
+                                                <option value="SE">Sweden</option>
+                                                <option value="CH">Switzerland</option>
+                                                <option value="SY">Syrian Arab Republic</option>
+                                                <option value="TW">Taiwan, Province of China</option>
+                                                <option value="TJ">Tajikistan</option>
+                                                <option value="TZ">Tanzania, United Republic of</option>
+                                                <option value="TH">Thailand</option>
+                                                <option value="TL">Timor-Leste</option>
+                                                <option value="TG">Togo</option>
+                                                <option value="TK">Tokelau</option>
+                                                <option value="TO">Tonga</option>
+                                                <option value="TT">Trinidad and Tobago</option>
+                                                <option value="TN">Tunisia</option>
+                                                <option value="TR">Turkey</option>
+                                                <option value="TM">Turkmenistan</option>
+                                                <option value="TC">Turks and Caicos Islands</option>
+                                                <option value="TV">Tuvalu</option>
+                                                <option value="UG">Uganda</option>
+                                                <option value="UA">Ukraine</option>
+                                                <option value="AE">United Arab Emirates</option>
+                                                <option value="GB">United Kingdom</option>
+                                                <option value="US">United States</option>
+                                                <option value="UM">United States Minor Outlying Islands</option>
+                                                <option value="UY">Uruguay</option>
+                                                <option value="UZ">Uzbekistan</option>
+                                                <option value="VU">Vanuatu</option>
+                                                <option value="VE">Venezuela</option>
+                                                <option value="VN">Viet Nam</option>
+                                                <option value="VG">Virgin Islands, British</option>
+                                                <option value="VI">Virgin Islands, U.s.</option>
+                                                <option value="WF">Wallis and Futuna</option>
+                                                <option value="EH">Western Sahara</option>
+                                                <option value="YE">Yemen</option>
+                                                <option value="ZM">Zambia</option>
+                                                <option value="ZW">Zimbabwe</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="mb-3 mb-md-0">
+                                            <div class="date" id="date1" data-target-input="nearest">
+                                                <input type="text" name="departdate" class="form-control p-4 datetimepicker-input" placeholder="Depart Date" data-target="#date1" data-toggle="datetimepicker" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="mb-3 mb-md-0">
+                                            <div class="date" id="date2" data-target-input="nearest">
+                                                <input type="text" name="returndate" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="mb-3 mb-md-0">
+                                            <select class="custom-select px-4" name="duration" style="height: 47px;">
+                                                <option selected>Duration</option>
+                                                <option value="1 day">1 day</option>
+                                                <option value="1 week">1 week</option>
+                                                <option value="1 month">1 month</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-primary btn-block" type="submit" name="submit" style="height: 47px; margin-top: -2px;">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- Booking End -->
+        <!-- About Start -->
+        <div id='about' class="container-fluid py-5">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-lg-6" style="min-height: 500px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute w-100 h-100" src="img/about.jpeg" style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-5 pb-lg-5">
+                        <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+                            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h6>
+                            <h1 class="mb-3">Discover New Places</h1>
+                            <p>Travel & Trunk is committed to bringing the best values ​​and quality travel arrangements to its customers. We provide the best tour packages in your budget.</p>
+                            <div class="row mb-4">
+                                <div class="col-6">
+                                    <img class="img-fluid" src="img/About-1.jpeg" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <img class="img-fluid" src="img/About-2.jpeg" alt="">
+                                </div>
+                            </div>
+                            <a href="http://127.0.0.1/view.php" class="btn btn-primary mt-1">Gallery</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        <!-- Feature Start -->
+        <div class="container-fluid pb-5">
+            <div class="container pb-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="d-flex mb-4 mb-lg-0">
+                            <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                                <i class="fa fa-2x fa-money-check-alt text-white"></i>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <h5 class="">Competitive Pricing</h5>
+                                <p class="m-0">Traveling cheap is all about taking advantage of our helpful website</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex mb-4 mb-lg-0">
+                            <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                                <i class="fa fa-2x fa-award text-white"></i>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <h5 class="">Best Services</h5>
+                                <p class="m-0">Relish our services and well-planned itineraries that highlight luxury at its best</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex mb-4 mb-lg-0">
+                            <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                                <i class="fa fa-2x fa-globe text-white"></i>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <h5 class="">Worldwide Coverage</h5>
+                                <p class="m-0">Life is short and the world is wide, go someplace where youve never been before</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+        <!-- Destination Start -->
+        <div id='des' class="container-fluid py-5">
+            <div class="container pt-5 pb-3">
+                <div class="text-center mb-3 pb-3">
+                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Destination</h6>
+                    <h1>Explore Most Famous Countries</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/Destination-1.jpeg" alt="">
+                            <a class="destination-overlay text-white text-decoration-none" href="https://www.swiss.com/lhg/gb/en">
+                                <h5 class="text-white">Switzerland</h5>
+                                <span>162 Cities</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/spain.jpeg" alt="">
+                            <a class="destination-overlay text-white text-decoration-none" href="https://spanishstudies.org/destinations/barcelona-spain/">
+                                <h5 class="text-white">Spain</h5>
+                                <span>300 Cities</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/Destination-3.jpeg" alt="">
+                            <a class="destination-overlay text-white text-decoration-none" href="https://www.virginaustralia.com/inspiration/au/destinations/adelaide">
+                                <h5 class="text-white">Australia</h5>
+                                <span>239 Cities</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/Destination-4.jpeg" alt="">
+                            <a class="destination-overlay text-white text-decoration-none" href="https://www.expedia.com/Destinations-In-Greece.d67.Flight-Destinations">
+                                <h5 class="text-white">Greece</h5>
+                                <span>141 Cities</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/Destination-5.jpeg" alt="">
+                            <a class="destination-overlay text-white text-decoration-none" href="https://www.turkishairlines.com/en-int/flights/flights-to-istanbul/?gclid=EAIaIQobChMI5p73isiq_AIVxwaLCh1RqQf7EAAYAyAAEgLTm_D_BwE">
+                                <h5 class="text-white">Turkey</h5>
+                                <span>580 Cities</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/thailand.jpeg" alt="">
+                            <a class="destination-overlay text-white text-decoration-none" href="https://www.qatarairways.com/en-pk/homepage.html?CID=SXPK750640&account=Google-SEA_SASC-PK-EN&campaign=_PK-Country-XXX-TH-EN_phrase&adgroup=Flights&term=thailand+flights&gclid=EAIaIQobChMI8LyDl6W6_AIVQ_53Ch0ITwt2EAAYAiAAEgIA8fD_BwE&gclsrc=aw.ds">
+                                <h5 class="text-white">Thailand</h5>
+                                <span>32 Cities</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Destination End -->
+        <!-- Registration Start -->
+        <div id='signup' class="container-fluid bg-registration py-5" style="margin: 90px 0;">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 mb-5 mb-lg-0">
+                        <div class="mb-4">
+                            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Mega Offer</h6>
+                            <h1 class="text-white"><span class="text-primary">30% OFF</span> For Honeymoon</h1>
+                        </div>
+                        <p class="text-white">
+                            What are you waiting for book your ticket now and availe the services.
+                        </p>
+                        <ul class="list-inline text-white m-0">
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Find homes for your next trip</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Discover more of your destination</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Make the most of your trip</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="card border-0">
+                            <div class="card-header bg-primary text-center p-4">
+                                <h1 class="text-white m-0">Sign Up Now</h1>
+                            </div>
+                            <div class="card-body rounded-bottom bg-white p-5">
+                                <form action="connect.php" method="post">
+                                    <div class="form-group">
+                                        <p>Hello {{fname+" "+lname+"!"}}</p>
+                                        <input placeholder="Enter first name"
+                                               type="text"
+                                               class="form-control"
+                                               required="required"
+                                               id="firstName"
+                                               ng-model="fname"
+                                               name="firstName" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input placeholder="Enter last name"
+                                               type="text"
+                                               class="form-control"
+                                               required="required"
+                                               id="lastName"
+                                               ng-model="lname"
+                                               name="lastName" />
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-group">
+                                            <label for="gender">&nbsp;Gender</label>
+                                            <div>
+                                                <label for="male" class="radio-inline">
+
+                                                    <input type="radio"
+                                                           name="gender"
+                                                           value="m"
+                                                           id="male" />&nbsp;&nbsp;Male&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                                <label for="female" class="radio-inline">
+                                                    <input type="radio"
+                                                           name="gender"
+                                                           value="f"
+                                                           id="female" />&nbsp;&nbsp;Female&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                </label>
+                                                <label for="others" class="radio-inline">
+                                                    <input type="radio"
+                                                           name="gender"
+                                                           value="o"
+                                                           id="others" />&nbsp;&nbsp;Others
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input placeholder="Enter your email"
+                                               type="email"
+                                               class="form-control"
+                                               required="required"
+                                               id="email"
+                                               name="email" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input placeholder="Enter your password"
+                                               type="password"
+                                               class="form-control"
+                                               required="required"
+                                               id="password"
+                                               name="password" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input placeholder="Enter your phone number"
+                                               type="number"
+                                               class="form-control"
+                                               required="required"
+                                               id="number"
+                                               name="number" />
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary btn-block py-3" type="submit">Sign Up Now</button>
+                                    </div>
+                                    <div class="text-center mb-3 pb-3" display="inline">
+                                        <h6></h6>
+                                        <h19>Already on Travel & Trunk?</h19>
+                                        <a href="index.html#login" class="nav-item nav-link">Log In</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Registration End -->
+        <!-- Service Start -->
+        <div id='services' class="container-fluid py-5">
+            <div class="container pt-5 pb-3">
+                <div class="text-center mb-3 pb-3">
+                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Services</h6>
+                    <h1>Tours & Travel Services</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                            <a href="https://www.kayak.com/travel-restrictions?">
+                                <i class="fa fa-2x fa-route mx-auto mb-4"></i>
+                            </a>
+                            <h5 class="mb-2">Travel Guide</h5>
+                            <p class="m-0">Destinations you can travel to now. Popular destinations open to most visitors from the different countries.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                            <a href="https://www.ladybug.com/flight/?cid=5102&utm_source=google-search&utm_medium=flight-desktop-ROAS-ALL-v2&utm_campaign=Flight-Google-Search-Volume1-ALL-Desktop&utm_term=air%20plane%20ticket&gclid=EAIaIQobChMIkJ_3sNi-_AIVDgOLCh1TwAc2EAAYASAAEgJmufD_BwE">
+                                <i class="fa fa-2x fa-ticket-alt mx-auto mb-4"></i>
+                            </a>
+                            <h5 class="mb-2">Ticket Booking</h5>
+                            <p class="m-0">Get cheap flight rates from low cost carriers and save BIG on your next trip. Book Now.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                            <a href="https://www.booking.com/index.en.html?aid=309654;label=hotels-english-en-row-ugh58fqe1eomojTnWeaw2wS476698497481:pl:ta:p1:p22,563,000:ac:ap:neg:fi:tikwd-17218370:lp9077333:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=EAIaIQobChMIroah-da-_AIVEcl3Ch2IjAOfEAAYASAAEgJR1fD_BwE">
+                                <i class="fa fa-2x fa-hotel mx-auto mb-4"></i>
+                            </a>
+                            <h5 class="mb-2">Hotel Booking</h5>
+                            <p class="m-0">Stay at our top unique properties. From castles and villas to boats and igloos, we've got it all.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+        <!-- Login Start -->
+        <div id='login' class="container-fluid bg-registration py-5" style="margin: 90px 0;">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 mb-5 mb-lg-0">
+                        <div class="mb-4">
+                            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Registered</h6>
+                            <h1 class="text-white"><span class="text-primary">Log In</span> Now</h1>
+                        </div>
+                        <p class="text-white">
+                            If you are already registered please login using your email and pasword.
+                        </p>
+                        <ul class="list-inline text-white m-0">
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Find homes for your next trip</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Discover more of your destination</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Make the most of your trip</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="card border-0">
+                            <div class="card-header bg-primary text-center p-4">
+                                <h1 class="text-white m-0">Log In</h1>
+                            </div>
+                            <div class="card-body rounded-bottom bg-white p-5">
+                                <form action="login.php" method="post">
+                                    <div class="form-group">
+                                        <input placeholder="Enter your email"
+                                               type="email"
+                                               class="form-control"
+                                               required
+                                               id="email"
+                                               name="email" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input placeholder="Enter your password"
+                                               type="password"
+                                               class="form-control"
+                                               id="password"
+                                               required
+                                               name="password" />
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary btn-block py-3" type="submit">Log In</button>
+                                    </div>
+
+                                    <div class="text-center mb-3 pb-3" display="inline">
+                                        <h6></h6>
+                                        <h19>New to Travel & Trunk?</h19>
+                                        <a href="index.html#signup" class="nav-item nav-link">Sign up</a>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Login End -->
+        <!-- Team Start -->
+        <div id="guide" class="container-fluid py-5">
+            <div class="container pt-5 pb-3">
+                <div class="text-center mb-3 pb-3">
+                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Guides</h6>
+                    <h1>Our Travel Guides</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                        <div class="team-item bg-white mb-4">
+                            <div class="team-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-primary btn-square" href="https://twitter.com/hirashahzad565"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-primary btn-square" href="https://www.facebook.com/profile.php?id=100013450172275"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/hs_art_565/"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-outline-primary btn-square" href="https://www.linkedin.com/in/hira-shahzad-ab6a72235/"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                                <h5 class="text-truncate">Beth Donnell</h5>
+                                <p class="m-0">Owner, Director</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                        <div class="team-item bg-white mb-4">
+                            <div class="team-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-primary btn-square" href="https://twitter.com/hirashahzad565"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-primary btn-square" href="https://www.facebook.com/profile.php?id=100013450172275"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/hs_art_565/"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-outline-primary btn-square" href="https://www.linkedin.com/in/hira-shahzad-ab6a72235/"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                                <h5 class="text-truncate">Luke Thomas</h5>
+                                <p class="m-0">Marketing Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                        <div class="team-item bg-white mb-4">
+                            <div class="team-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-primary btn-square" href="https://twitter.com/hirashahzad565"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-primary btn-square" href="https://www.facebook.com/profile.php?id=100013450172275"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/hs_art_565/"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-outline-primary btn-square" href="https://www.linkedin.com/in/hira-shahzad-ab6a72235/"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                                <h5 class="text-truncate">Stefanie Gramkee</h5>
+                                <p class="m-0">Travel Consultant</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                        <div class="team-item bg-white mb-4">
+                            <div class="team-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-primary btn-square" href="https://twitter.com/hirashahzad565"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-primary btn-square" href="https://www.facebook.com/profile.php?id=100013450172275"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/hs_art_565/"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-outline-primary btn-square" href="https://www.linkedin.com/in/hira-shahzad-ab6a72235/"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                                <h5 class="text-truncate">Joel Cristall</h5>
+                                <p class="m-0">Accounting Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+        <!-- Testimonial Start -->
+        <div id='testimonial' class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mb-3 pb-3">
+                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h6>
+                    <h1>What Say Our Clients</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="text-center pb-4">
+                        <img class="img-fluid mx-auto" src="img/testimonial-1.jpg" style="width: 100px; height: 100px;">
+                        <div class="testimonial-text bg-white p-4 mt-n5">
+                            <p class="mt-5">
+                                “It provide an excellent service, I would recommend them.”
+                            </p>
+                            <h5 class="text-truncate">Wade</h5>
+                            <span>Artist</span>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img class="img-fluid mx-auto" src="img/testimonial-2.jpg" style="width: 100px; height: 100px;">
+                        <div class="testimonial-text bg-white p-4 mt-n5">
+                            <p class="mt-5">
+                                “The team are on the ball and really know our needs.”
+                            </p>
+                            <h5 class="text-truncate">Dave</h5>
+                            <span>Tour Guid</span>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img class="img-fluid mx-auto" src="img/testimonial-3.jpg" style="width: 100px; height: 100px;">
+                        <div class="testimonial-text bg-white p-4 mt-n5">
+                            <p class="mt-5">
+                                “Extremely knowledgeable and helpful staff.”
+                            </p>
+                            <h5 class="text-truncate">Seth</h5>
+                            <span>Tourist</span>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img class="img-fluid mx-auto" src="img/testimonial-4.jpg" style="width: 100px; height: 100px;">
+                        <div class="testimonial-text bg-white p-4 mt-n5">
+                            <p class="mt-5">
+                                “Excellent service and with a “down to earth” approach.”
+                            </p>
+                            <h5 class="text-truncate">Ivan</h5>
+                            <span>Tour Guid</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+        <!-- Blog Start -->
+        <div id='blog' class="container-fluid py-5">
+            <div class="container pt-5 pb-3">
+                <div class="text-center mb-3 pb-3">
+                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Blog</h6>
+                    <h1>Latest From Our Blog</h1>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                        <div class="blog-item">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="img/blog1.png" alt="">
+                                <div class="blog-date">
+                                    <h6 class="font-weight-bold mb-n1">10</h6>
+                                    <small class="text-white text-uppercase">Dec</small>
+                                </div>
+                            </div>
+                            <div class="bg-white p-4">
+                                <div class="d-flex mb-2">
+                                    <a class="text-primary text-uppercase text-decoration-none" href="https://www.atlasandboots.com/">ATLAS & BOOTS</a>
+                                    <span class="text-primary px-2">|</span>
+                                    <p class="text-primary text-uppercase text-decoration-none"> Tours & Travel</p>
+                                </div>
+                                <a class="h5 m-0 text-decoration-none" href="https://www.atlasandboots.com/travel-blog/does-outdoors-have-diversity-problem/">DOES THE OUTDOORS REALLY HAVE A DIVERSITY PROBLEM?</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                        <div class="blog-item">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="img/blog-2.jpg" alt="">
+                                <div class="blog-date">
+                                    <h6 class="font-weight-bold mb-n1">28</h6>
+                                    <small class="text-white text-uppercase">Nov</small>
+                                </div>
+                            </div>
+                            <div class="bg-white p-4">
+                                <div class="d-flex mb-2">
+                                    <a class="text-primary text-uppercase text-decoration-none" href="https://www.nomadicmatt.com/">NOMADIC MATT</a>
+                                    <span class="text-primary px-2">|</span>
+                                    <p class="text-primary text-uppercase text-decoration-none">Tours & Travel</p>
+                                </div>
+                                <a class="h5 m-0 text-decoration-none" href="https://www.nomadicmatt.com/travel-blogs/where-to-stay-mexico-city/">WHERE TO STAY IN MEXICO CITY?</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                        <div class="blog-item">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="img/blog-3.jpg" alt="">
+                                <div class="blog-date">
+                                    <h6 class="font-weight-bold mb-n1">16</h6>
+                                    <small class="text-white text-uppercase">Mar</small>
+                                </div>
+                            </div>
+                            <div class="bg-white p-4">
+                                <div class="d-flex mb-2">
+                                    <a class="text-primary text-uppercase text-decoration-none" href="https://uncorneredmarket.com/">UNCOVER MARKET</a>
+                                    <span class="text-primary px-2">|</span>
+                                    <p class="text-primary text-uppercase text-decoration-none"> Tours & Travel</p>
+                                </div>
+                                <a class="h5 m-0 text-decoration-none" href="https://uncorneredmarket.com/st-maarten-experiential-travel-guide/">TRAVEL TO ST. MAARTEN: 18 UNUSUAL THINGS TO DO</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+        <!-- Contact Start -->
+        <div id='contact' class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mb-3 pb-3">
+                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Contact</h6>
+                    <h1>Contact For Any Query</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="contact-form bg-white" style="padding: 30px;">
+                            <div id="success"></div>
+
+                            <!-- Sending data to email -->
+                            <form action="https://formsubmit.co/nidajavedse@gmail.com" method="POST">
+                                <input type="text" name="_honey" style="display: none;">
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_next" value="http://localhost/success.html">
+
+                                <div class="form-row">
+                                    <div class="control-group col-sm-6">
+                                        <input type="text" class="form-control p-4" name="name" id="name" placeholder="Your Name"
+                                               required="required" data-validation-required-message="Please enter your name" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group col-sm-6">
+                                        <input type="email" class="form-control p-4" name="email" id="email" placeholder="Your Email"
+                                               required="required" data-validation-required-message="Please enter your email" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <input type="text" class="form-control p-4" name="subject" id="subject" placeholder="Subject"
+                                           required="required" data-validation-required-message="Please enter a subject" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <textarea class="form-control py-3 px-4" rows="5" name="message" id="message" placeholder="Message"
+                                              required="required"
+                                              data-validation-required-message="Please enter your message"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+            <div class="row pt-5">
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <a href="" class="navbar-brand">
+                        <h1 class="text-primary"><span class="text-white">TRAVEL</span>ER</h1>
+                    </a>
+                    <p>Some destinations are better than others when it comes to planning your ultimate budget holiday. Choose your favourite budget adventure here.</p>
+                    <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
+                    <div class="d-flex justify-content-start">
+                        <a class="btn btn-outline-primary btn-square mr-2" href="https://twitter.com/hirashahzad565"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-primary btn-square mr-2" href="https://www.facebook.com/profile.php?id=100013450172275"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-primary btn-square mr-2" href="https://www.linkedin.com/in/hira-shahzad-ab6a72235/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/hs_art_565/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-white-50 mb-2" href="index.html#about"><i class="fa fa-angle-right mr-2"></i>About</a>
+                        <a class="text-white-50 mb-2" href="index.html#des"><i class="fa fa-angle-right mr-2"></i>Destination</a>
+                        <a class="text-white-50 mb-2" href="index.html#services"><i class="fa fa-angle-right mr-2"></i>Services</a>
+                        <a class="text-white-50 mb-2" href="index.html#guide"><i class="fa fa-angle-right mr-2"></i>Guides</a>
+                        <a class="text-white-50 mb-2" href="index.html#testimonial"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
+                        <a class="text-white-50" href="index.html#blog"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Usefull Links</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-white-50 mb-2" href="index.html#about"><i class="fa fa-angle-right mr-2"></i>About</a>
+                        <a class="text-white-50 mb-2" href="index.html#des"><i class="fa fa-angle-right mr-2"></i>Destination</a>
+                        <a class="text-white-50 mb-2" href="index.html#services"><i class="fa fa-angle-right mr-2"></i>Services</a>
+                        <a class="text-white-50 mb-2" href="index.html#guide"><i class="fa fa-angle-right mr-2"></i>Guides</a>
+                        <a class="text-white-50 mb-2" href="index.html#testimonial"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
+                        <a class="text-white-50" href="index.html#blog"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>Gulberg Greens, Islamabad, Pakistan</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope mr-2"></i>25296@students.riphah.edu.pk</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+            <div class="row">
+                <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+                    <p class="m-0 text-white-50">
+                        Copyright &copy; 2023 Travel & Trunk. All Rights Reserved.</a>
+                    </p>
+                </div>
+                <div class="col-lg-6 text-center text-md-right">
+                    <p class="m-0 text-white-50">
+                        Designed by Nida Javed & Hira Shahzad
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+</body>
+</html>
